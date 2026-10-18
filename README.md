@@ -26,7 +26,7 @@
 
 This is **Version 2.0** of the Data Jobs Market Dashboard — a redesigned, single-page Power BI report built on the same real-world dataset of **478,895 data science job postings from 2024**. This iteration prioritizes speed and clarity: a recruiter or job seeker gets every critical market signal — salaries, skills, job counts, and hiring trends — without navigating between pages.
 
-The upgrade from V1 reflects a deliberate design decision: consolidation. In operational analytics contexts (healthcare, supply chain, clinical ops), executive dashboards are expected to surface key decisions on a single view. This project demonstrates that design philosophy directly.
+The upgrade from V1 reflects a deliberate design decision: consolidation. Executive dashboards should surface key decisions on a single view, and this project demonstrates that design philosophy directly.
 
 ---
 
@@ -56,7 +56,7 @@ Version 2.0 sharpens the focus on the three questions data job seekers need answ
 ## 📁 Repository Structure
 
 ```
-📦 data-jobs-dashboard-v2/
+📦 data-jobs-powerbi-dashboard-v2/
 │
 ├── 📊 Data_Jobs_Dashboard_2_0.pbix
 ├── 📄 README.md
@@ -180,30 +180,6 @@ Horizontal bar chart comparing median salaries across all roles:
 3. **$45,250 salary gap** between Senior Data Scientist ($155,500) and Senior Data Analyst ($107,310) — the "senior" jump matters more than the title change
 4. **LinkedIn dominates hiring** — 31% of all 2024 data job postings were on LinkedIn; the second-largest platform (BeBee) had less than a third of that volume
 5. **Data Engineer overtook Data Scientist** in raw job count (128,994 vs 97,664) — reflecting industry shift toward data infrastructure over pure modeling
-
----
-
-## 🏥 Relevance to Target Roles
-
-### Clinical Data Analyst / Healthcare Operations
-
-| Dashboard Element | Healthcare Equivalent |
-|---|---|
-| KPI cards (salary, count, skills/job) | Scorecard reporting for clinical operations leadership |
-| Skill demand % toggle | Required competency frequency across clinical roles |
-| Single-page consolidated design | Executive-level clinical dashboard design pattern |
-| DAX explicit measures | Calculated metrics in healthcare BI (ALOS, HCAHPS, readmission rates) |
-| Star schema model | Structure identical to EHR data warehouses (fact + dimension tables) |
-
-### Supply Chain & Logistics
-
-| Dashboard Element | Supply Chain Equivalent |
-|---|---|
-| Job count by role | Order volume or SKU count tracking across product lines |
-| Skill frequency ranking | Vendor competency or warehouse process benchmarking |
-| Salary by title comparison | Cost benchmarking across fulfillment roles or carrier tiers |
-| Single-page dashboard design | Operations center real-time KPI reporting |
-| Power Query ETL pipeline | Data transformation from WMS/ERP exports |
 
 ---
 
