@@ -190,11 +190,3 @@ Horizontal bar chart comparing median salaries across all roles:
 3. All data is embedded — no external database connection required
 4. Use the **Job Title slicer** to filter all KPIs and charts simultaneously
 5. Use the **toggle buttons** on the Skills panel to switch between Count and % views
-
----
-
-## 🔗 Related Project
-
-📁 [Data Jobs Dashboard V1.0](https://github.com/KrishnaSai315/data-jobs-market-dashboard) — Two-page version with drill-through navigation and geospatial map analysis
-
-
